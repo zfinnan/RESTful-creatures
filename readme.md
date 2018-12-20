@@ -5,7 +5,7 @@
 * CRUD/RESTful Routing in Express Lesson: https://gawdiseattle.gitbooks.io/wdi/05-node-express/express-REST-crud/00readme.html
 * GET & POST lesson/code-along: https://gawdiseattle.gitbooks.io/wdi/05-node-express/express-REST-crud/01get-post.html
 --- 
-For this lab, you're going to add a prehistoric creatures section to the `crud_prehistoric creatures` app.
+For this lab, you're going to add a prehistoric creatures section to the `crud_dinosaurs` app.
 ---
 
 ## 1. Add the `prehistoric_creatures.json` file to your `crud_prehistoric creatures` directory. (That file is included in this repo.)
