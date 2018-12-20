@@ -19,8 +19,6 @@ For this lab, you're going to add a prehistoric creatures section to the `crud_d
 | GET | /prehistoric creatures/1 | Show (Read) | displays the type and photo of a particular prehistoric creature (id = 1) |
 | POST | /prehistoric creatures | Create | creates an prehistoric creature with the POST payload data |
 | GET | /prehistoric creatures/edit/1 | Show(Read) | form for editting a specific prehistoric creature (id = 1)|
-| PUT | /prehistoric creatures/1 | Update | updates the data for a specific prehistoric creature (id = 1) |
-| DELETE | /prehistoric creatures/1 | Delete (Destroy) | deletes the prehistoric creature with the specified id (1) |
 
 ## 3. Reorganize your routes into controllers
 ( one controller for dinosaurs and one controller for prehistoric creatures)
