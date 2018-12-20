@@ -8,7 +8,7 @@
 For this lab, you're going to add a prehistoric creatures section to the `crud_dinosaurs` app.
 ---
 
-## 1. Add the `prehistoric_creatures.json` file to your `crud_prehistoric creatures` directory. (That file is included in this repo.)
+## 1. Add the `prehistoric_creatures.json` file to your `crud_dinosaurs` directory. (That file is included in this repo.)
 
 
 ## 2. Create the following routes:
