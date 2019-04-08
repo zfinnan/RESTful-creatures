@@ -26,3 +26,6 @@ For this lab, you're going to build on the dinosaurs app built in the CRUD/RESTf
 
 ## 3. Reorganize your routes into controllers
 (one controller for dinosaurs and one controller for cryptids)
+
+## BONUS!
+Add some style to your page! Use your own CSS or use a framework! Display the images in a collage grid or have the name of the crypid appear when you hover over the picture. 
