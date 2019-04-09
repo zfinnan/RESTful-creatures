@@ -7,6 +7,7 @@
 --- 
 ## Goal
 For this lab, you're going to build on the dinosaurs app built in the CRUD/RESTful Routing lesson.
+Using the same app, create a mirror of what you created in the code-along, only this time, instead of dinosaurs, add and document Cryptids! Big-foot is a fan favorite, but there are more to find by looking for cryptids online.
 
 ---
 
