@@ -1,14 +1,16 @@
 # RESTful Dinos (Lab)
 
-# GET & POST
-
-**NOTE**: Please get the starter code for this lab [here](https://github.com/WDI-SEA/RESTful-cryptids).
-
 So far, we've only been rendering views, which is why we've been using GET for all of our routes. Now that we're working with data, we'll start to see how the other HTTP verbs come into play. Here we will focus on `GET` and `POST`.
 
-## Objectives
+## Objectives: Learning GET & POST
 
-* Implement `GET` and `POST` routes in `express`.
+* Implement `GET` and `POST` routes in `express`. 
+
+## Directions
+
+1. Fork and Clone this repository!
+2. Follow the steps in this lab to get a working app!
+3. If you finish early, start on the [homework](./homework.md)!
 
 ### 1. Set up a new express app called `crud_dinosaurs`.
 
@@ -21,24 +23,24 @@ We'll start workign with data from an actual database soon, but for now we'll ju
 ```json
 [
   {
-    "name":"Littlefoot",
-    "type":"apatosaurus"
+    "name": "Littlefoot",
+    "type": "Apatosaurus"
   },
   {
-    "name":"Cera",
-    "type":"triceratops"
+    "name": "Cera",
+    "type": "Triceratops"
   },
   {
-    "name":"Ducky",
-    "type":"saurolophus"
+    "name": "Ducky",
+    "type": "Saurolophus"
   },
   {
-    "name":"Petrie",
-    "type":"pteranodon"
+    "name": "Petrie",
+    "type": "Pteranodon"
   },
   {
-    "name":"Spike",
-    "type":"stegosaurus"
+    "name": "Spike",
+    "type": "Stegosaurus"
   }
 ]
 ```
