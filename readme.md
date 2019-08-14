@@ -9,10 +9,10 @@ So far, we've only been rendering views, which is why we've been using GET for a
 ## Directions
 
 1. Fork and Clone this repository!
-2. Follow the steps in this lab to get a working app!
+2. Follow the steps below to get a working app!
 3. If you finish early, start on the [homework](./homework.md)!
 
-### 1. Set up a new express app called `crud_dinosaurs`.
+### STEP 1: Set up a new express app called `crud_dinosaurs`.
 
 Incorporate `express-ejs-layouts`.
 
@@ -45,7 +45,7 @@ We'll start workign with data from an actual database soon, but for now we'll ju
 ]
 ```
 
-### 2. Index / Read (GET) route
+### STEP 2: Index / Read (GET) route
 
 Index is a route (URL) that lists all items of a specific type. It is a GET request to (in this example) `/dinosaurs`.
 
@@ -101,7 +101,7 @@ app.get('/dinosaurs', function(req, res) {
 
 In the above example we load the `dinosaurs/index.ejs` view and pass it `dinoData` as `mydinosaurs`. Now we can access myDinos directly in the `index.ejs` file.
 
-### 3. Show / Read (GET) route
+### STEP 3: Show / Read (GET) route
 
 _Show_ is a route that displays a single item of a specific type. Since we're still just reading data, it is a GET
 request to (in this example) `/dinosaurs/1`
@@ -135,7 +135,7 @@ item from the `dinoData` array as `myDino`. We use the `:idx` url parameter to
 specify which animal to display. This means in the `show.ejs` file we can
 access myDino directly.
 
-### 4. New / Read (GET) route
+### STEP 4: New / Read (GET) route
 
 To create an item (dinosaur in this example) we need to get the data about that item, so we'll use a [form](https://www.w3schools.com/html/html_forms.asp).
 
@@ -166,7 +166,7 @@ app.get('/dinosaurs/new', function(req, res){
 ```
 Not working? Make sure this route is _above_ the show (`/dinosaurs/:idx`) route, otherwise the show route will catch the request and pass in "new" as `req.params.idx`.
 
-### 5. Create (POST) route
+### STEP 5: Create (POST) route
 
 When the above form is submitted it will make a `POST` to the url `/dinosaurs` with the data contained in the form fields. To receive this data, we need to create the `POST` route and use some middleware to make the data readable. This middleware is new to `express` and prior to version 4, we had to manually install the `body-parser` node package in order to use it. (If it bothers you that we're glazing over how the data comes through before we send it through something like `body-parser`, read [this article](https://medium.com/@adamzerner/how-bodyparser-works-247897a93b90). It will always make sense to use some sort of framework like `body-parser` in practice, but if you're interested in capturing the raw data, see [this article](https://itnext.io/how-to-handle-the-post-request-body-in-node-js-without-using-a-framework-cd2038b93190).)
 
@@ -201,7 +201,6 @@ app.post('/dinosaurs', function(req, res) {
 ```
 
 Try adding a new dinosaur and make sure you see the appropriate data come through in the terminal when you submit the form.
-
 
 **body-parser Summary:**
 Form data is passed as payload of the request. Every field that has a name will
@@ -242,7 +241,7 @@ app.post('/dinosaurs', function(req, res) {
 
 `JSON.stringify` does the opposite of `JSON.parse` - it converts javascript data into json data.
 
-### Show / Read (GET) with a Form
+### STEP 7: Show / Read (GET) with a Form
 
 There may be instances where you need to `GET` dinosaurs, but you don't want them all. A good example is filtering dinosaurs with a specific name via a search bar.
 
