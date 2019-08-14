@@ -14,7 +14,7 @@ What is a Cryptid you ask? Cryptids are legendary creatures such as Sasquatch (B
 
 For this assignment, you're going to build on the dinosaurs app that we built in class during the CRUD/RESTful Routing lesson.
 
-Using the same app (just add to your existing code), create a mirror of what you created in the code-along, only this time, instead of dinosaurs, add and document cryptids! Big-foot is a fan favorite, but there are more to find by looking for cryptids online. Definitely find a strange or exotic cryptid to tell us about!
+Using the same app (just add to your existing code), create a mirror of what you created in the dinosaurs app, only this time, instead of dinosaurs, add and document cryptids! Big-foot is a fan favorite, but there are more to find by looking for cryptids online. Definitely find a strange or exotic cryptid to tell us about!
 
 ---
 
