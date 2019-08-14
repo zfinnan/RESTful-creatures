@@ -1,6 +1,6 @@
 # RESTful Cryptids (Homework)
 
-What is a Cryptid you ask? Cryptids are legendary creatures such as Sasquatch or Nessie (Loch Ness Monster) that people claim to have seen or encountered, but no evidence has been gathered to prove it.
+What is a Cryptid you ask? Cryptids are legendary creatures such as Sasquatch (Bigfoot) or Nessie (Loch Ness Monster) that people claim to have seen or encountered, but no evidence has been gathered to prove it.
 
 ---
 ## Prerequisite Lessons
