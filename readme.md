@@ -18,7 +18,7 @@ Incorporate `express-ejs-layouts`.
 
 **Backend data store**
 
-We'll start workign with data from an actual database soon, but for now we'll just focus on routes and use, a JSON object as our data store. In the root of the project, create a `dinosaurs.json` file with the following contents:
+We'll start workign with data from an actual database soon, but for now we'll just focus on routes and use, a JSON object as our data store. In the root of the project, there is a file called `dinosaurs.json` (it's already created, but it's empty). Fill this file with the following contents:
 
 ```json
 [
