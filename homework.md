@@ -42,4 +42,4 @@ There should be one controller for dinosaurs and one controller for cryptids.
 
 ## BONUS!
 
-Make a tootip that display the name of the cryptid when you hover over the image.
+Make a tooltip that displays the name of the cryptid when you hover over the image.
