@@ -1,0 +1,11 @@
+<h1>Edit <%=myCryptid.name%></h1>
+
+<form method="POST" action="/cryptids/<%=myCryptid.name%>/?_method=PUT">
+  <label for="cryptidType">Image URL</label>
+  <input id="cryptidType" type="url" name="img_url" value="<%=myCryptid.img_url%>">
+
+  <label for="CryptidName">Name</label>
+  <input id="CryptidName" type="text" name="name" value="<%=myCryptid.name%>">
+
+  <input type="submit">
+</form>

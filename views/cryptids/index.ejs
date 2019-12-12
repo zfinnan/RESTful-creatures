@@ -1,0 +1,16 @@
+<h1>List of all Cryptids</h1>
+
+<div>
+  <% myCryptids.forEach((c, i) => { %>
+  <h2>
+    <%= c.name %>:
+    <a href="/cryptids/<%=i%>">Details ℹ️</a>
+    <a href="/cryptids/edit/<%=i%>">Edit ✎</a>
+    <form action="/cryptids/<%=i%>/?_method=DELETE" method="POST">
+      <button type="submit">Delete 🚫</button>
+    </form>
+  </h2>
+  <% }) %>
+</div>
+
+<a href="/cryptids/new">Add a New One!</a>
