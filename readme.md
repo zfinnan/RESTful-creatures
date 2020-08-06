@@ -276,6 +276,6 @@ app.get('/dinosaurs', function(req, res) {
 });
 ```
 
-## All Done?
+## Want more practice?
 
-Go ahead and get started on the [homework assignment - RESTful Cryptids](./homework.md)!
+Add onto this project with the [RESTful Cryptids](./homework.md) and [RESTful Prehistorics](https://github.com/WDI-SEA/prehistoric_creatures) assignments!
