@@ -10,7 +10,6 @@ So far, we've only been rendering views, which is why we've been using GET for a
 
 1. Fork and Clone this repository!
 2. Follow the steps below to get a working app!
-3. If you finish early, start on the [homework](./homework.md)!
 
 ### STEP 1: Set up a new express app called `crud_dinosaurs`.
 
@@ -18,7 +17,7 @@ Incorporate `express-ejs-layouts`.
 
 **Backend data store**
 
-We'll start workign with data from an actual database soon, but for now we'll just focus on routes and use, a JSON object as our data store. In the root of the project, there is a file called `dinosaurs.json` (it's already created, but it's empty). Fill this file with the following contents:
+We'll start working with data from an actual database soon, but for now we'll just focus on routes and use, a JSON object as our data store. In the root of the project, there is a file called `dinosaurs.json` (it's already created, but it's empty). Fill this file with the following contents:
 
 ```json
 [
@@ -276,6 +275,6 @@ app.get('/dinosaurs', function(req, res) {
 });
 ```
 
-## Want more practice?
+## Lab time!
 
-Add onto this project with the [RESTful Cryptids](./homework.md) and [RESTful Prehistorics](https://github.com/WDI-SEA/prehistoric_creatures) assignments!
+Add onto this project with [RESTful Prehistorics](https://github.com/SEI-ATL/prehistoric_creatures) assignments!
